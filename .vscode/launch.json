@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ExamenfiltroApplication<examenfiltro>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.examenfiltro.examenfiltro.ExamenfiltroApplication",
+            "projectName": "examenfiltro",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
