@@ -32,8 +32,8 @@ public class Customer {
     private String lastnamecustomer;
 
     @ManyToOne
-    @JoinColumn(name = "codecitycustomer", referencedColumnName = "codecity", nullable = false)
-    private String codecitycustomer;
+    @JoinColumn(name = "codecitycustomer")
+    private City codecitycustomer;
 
     @Column(name = "emailcustomer")
     private String emailcustomer;
